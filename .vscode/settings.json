@@ -1,0 +1,23 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "javascript.validate.enable": false,
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/bin/": true,
+    "**/dist/": true,
+    "**/build/": true,
+    "**/node_modules/": true,
+    "**/obj/": true,
+    "**/Properties/": true,
+    "**/npm-debug.log": true
+  }
+}

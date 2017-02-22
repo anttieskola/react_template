@@ -1,0 +1,24 @@
+// import bootstrap (configuration)
+@import 'bootstrap';
+
+// react-bootstrap-table style
+@import "~react-bootstrap-table/dist/react-bootstrap-table-all.min.css";
+
+// SASS
+// Guide: http://sass-lang.com/guide
+// Reference http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+// name styles so that the classname tells reader
+// the component/view that it is used
+
+// can be added to Col's as classname to remove default padding
+.nopadding {
+   padding: 0 !important;
+}
+// can be added to Col's as classname to remove default padding from right
+.nopadding-right {
+	padding-right: 0 !important;
+}
+// can be added to Col's as classname to remove default padding from left
+.nopadding-left {
+	padding-left: 0 !important;
+}
