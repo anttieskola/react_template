@@ -4,6 +4,7 @@
   "description": "My react template project",
   "scripts": {
     "dev": "node dev.js",
+    "build": "webpack --config webpack.config.prod.js --progress --display-error-details --color",
     "test": "jest"
   },
   "author": "Antti Eskola",
@@ -49,6 +50,7 @@
     "babel-preset-stage-0": "6.22.0",
     "babel-eslint": "7.1.1",
     "babel-jest": "18.0.0",
+    "clean-webpack-plugin": "0.1.15",
     "eslint": "3.15.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
