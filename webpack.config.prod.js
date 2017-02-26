@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 require('babel-polyfill');
 /* eslint-enable import/no-extraneous-dependencies */
 
@@ -91,5 +92,9 @@ module.exports = {
       },
       sourceMap: false,
     }),
+    new CopyWebpackPlugin([
+      // web.config contains rewrite rules
+      { from: './static/web.config', to: 'web.config' },
+    ]),
   ],
 };

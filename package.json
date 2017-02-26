@@ -42,6 +42,7 @@
     "redux-thunk": "2.2.0"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "4.0.1",
     "css-loader": "0.26.1",
     "babel-core": "6.23.1",
     "babel-loader": "6.3.2",
